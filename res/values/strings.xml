@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Trebla</string>
+    <string name="action_settings">Settings</string>
+    <string name="updatelog">Update log</string>
+    <string name="stopapplication">Stop application</string>
+
+</resources>
