@@ -22,7 +22,7 @@ The smartphone (Galaxy Nexus) is connected to the external device ([Arduino Leon
 
 The application has two configurations.
 
-* In earth configuration it is programmed to receive commands via WiFi, process them and reply.
+* In earth configuration it is programmed to receive commands via WiFi, process them and reply. It creates a socket server on the smartphone and waits for a client to connect.
 
 * In space configuration WiFi cannot be used so the commands go through the external device that forwards commands via USB to the application for processing. Some external custom-made communications electronics has to be used.
 
@@ -65,7 +65,7 @@ For example if one wants to sample the accelerometer sensor one would send the c
 
 ### Examples
 
-The application has been tested with the following applications that were custom made for it, they can be used to build other scripts. The communication is done via WiFi sockets, the smartphone and the client computer have to be on the same network.
+The application has been tested with the following applications that were custom made for it, they can be used to build other scripts. The communication is done via TCP/IP socket (WiFi), the smartphone and the client computer have to be on the same network.
 
 #### Python terminal
 
